@@ -39,6 +39,7 @@ export const query = graphql`
     }
   }
 `
+console.log(`this is a query ${query}`)
 
 export const Head = () => <Seo title="My Blog Posts" />
 
